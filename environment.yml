@@ -1,0 +1,20 @@
+name: dinosip-python-web
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - pip
+  - jupyter-book
+  - ipykernel
+  - ghp-import
+  - matplotlib
+  - numpy
+  - pandas
+  - seabird
+  # - geopandas
+  # - xarray
+  # - seaborn
+  # - folium
+  # - cartopy
+
