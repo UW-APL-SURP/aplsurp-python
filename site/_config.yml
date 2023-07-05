@@ -4,6 +4,8 @@
 title: DINOSIP Python workshop
 author: Emilio Mayorga
 logo: img/dinosip-logo.png
+# HMM, where do these show up?
+announcement: Python tour workshop for DINO SIP
 description: >-
   Python tour workshop for DINO SIP
 
