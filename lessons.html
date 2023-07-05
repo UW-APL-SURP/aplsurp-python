@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Lessons &#8212; DINOSIP Python workshop</title>
+    <title>Detailed lessons &#8212; DINOSIP Python workshop</title>
   
   
   
@@ -64,7 +64,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Advanced examples" href="advancedexamples.html" />
-    <link rel="prev" title="Quick start / overview" href="overview.html" />
+    <link rel="prev" title="Quick overview" href="overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -352,7 +352,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Lessons</h1>
+    <h1>Detailed lessons</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -363,7 +363,13 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the Data</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#episodes-we-ll-go-through">Episodes we’ll go through</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-episodes">Lesson episodes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-basics">The basics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#break-and-q-a">– Break and Q/A</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-advanced-topics">More advanced topics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">– Break and Q/A</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -375,35 +381,53 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="lessons">
-<h1>Lessons<a class="headerlink" href="#lessons" title="Permalink to this headline">#</a></h1>
-<p>From The Carpentries, <a class="reference external" href="https://carpentries.org">https://carpentries.org</a></p>
-<ul class="simple">
-<li><p><strong>Plotting and Programming in Python</strong>. This lesson is an introduction to programming in Python 3 for people with little or no previous programming experience. <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/">https://swcarpentry.github.io/python-novice-gapminder/</a></p></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="detailed-lessons">
+<h1>Detailed lessons<a class="headerlink" href="#detailed-lessons" title="Permalink to this headline">#</a></h1>
+<p>There are <strong>many</strong> free Python tutorials online; a quick search will produce a very long list. For example, <a class="reference external" href="https://realpython.com/learning-paths/python-basics/">Python Basics: Introduction to Python</a> features many detailed lessons from <a class="reference external" href="https://realpython.com">https://realpython.com</a>, which I find to be a great source for Python in-depth learning. <a class="reference external" href="https://foundations.projectpythia.org/landing-page.html">Project Pythia Foundations</a> has a great collection of more advanced tutorials especially geared for the earth sciences, including Oceanography.</p>
+<p>Instead of creating learning materials from scratch, we’ll take advantage of <a class="reference external" href="https://carpentries.org">The Carpentries, https://carpentries.org</a>, “a global community teaching foundational computational and data science skills to researchers in academia, industry and government.” Carpentries tutorials and lessons are openly accessible.</p>
+<p>Specifically, <strong>we’ll use the <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lesson from The Carpentries</strong>: “This lesson is an introduction to programming in Python 3 for people with little or no previous programming experience.” It’s also referred to as the “gapminder” lesson, based on the dataset it uses.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Another, similar Carpentries lesson that you may find helpful is <a class="reference external" href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a>: “The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis.”</p>
+</div>
 <section id="getting-the-data">
 <h2>Getting the Data<a class="headerlink" href="#getting-the-data" title="Permalink to this headline">#</a></h2>
-<p>The data we will be using is taken from the <a class="reference external" href="https://en.wikipedia.org/wiki/Gapminder_Foundation">gapminder</a> dataset. To obtain it, download and unzip the file <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a>. In order to follow the presented material, you should launch the JupyterLab server in the root directory (see <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab">Starting JupyterLab</a>).</p>
+<p>The data we will use is taken from the <a class="reference external" href="https://en.wikipedia.org/wiki/Gapminder_Foundation">gapminder</a> dataset. To obtain it, download and unzip the file <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a>. In order to follow the presented material, you should launch JupyterLab in the folder that contains the unzipped ddadta file. (see <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab">Starting JupyterLab</a>).</p>
 </section>
-<section id="episodes-we-ll-go-through">
-<h2>Episodes we’ll go through<a class="headerlink" href="#episodes-we-ll-go-through" title="Permalink to this headline">#</a></h2>
-<p>will skim through them and highlight only certain things</p>
-<p>specify the key points I want to highlight</p>
-<p><strong>BELOW, ADD BREAKS FOR QUESTIONS AND EXERCISES</strong></p>
+<section id="lesson-episodes">
+<h2>Lesson episodes<a class="headerlink" href="#lesson-episodes" title="Permalink to this headline">#</a></h2>
+<p>The Plotting and Programming in Python lesson is intended as a workshop that takes a full day. We will go through a <em>subset</em> of the materials (referred to as “episodes”) and will only highlight some specific points within each episode. The goal is to examine in more detail most of the Python and programming elements we saw in the previous “Quick overview”.</p>
+<p><strong>SPECIFY THE KEY POINTS I WANT TO HIGHLIGHT</strong></p>
+<section id="the-basics">
+<h3>The basics<a class="headerlink" href="#the-basics" title="Permalink to this headline">#</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html">1. Running and Quitting</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/02-variables.html">2. Variables and Assignment</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/03-types-conversion.html">3. Data Types and Type Conversion</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html">4. Built-in Functions and Help</a></p></li>
+<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/11-lists.html">11. Lists</a></p></li>
+<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html">12. For Loops</a></p></li>
+<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/13-conditionals.html">13. Conditionals</a></p></li>
+</ul>
+</section>
+<section id="break-and-q-a">
+<h3>– Break and Q/A<a class="headerlink" href="#break-and-q-a" title="Permalink to this headline">#</a></h3>
+</section>
+<section id="more-advanced-topics">
+<h3>More advanced topics<a class="headerlink" href="#more-advanced-topics" title="Permalink to this headline">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://foundations.projectpythia.org/core/numpy/numpy-basics.html">Numpy – from Project Pythia</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/06-libraries.html">6. Libraries</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/07-reading-tabular.html">7. Reading Tabular Data into DataFrames</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/08-data-frames.html">8. Pandas DataFrames</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html">9. Plotting</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/11-lists.html">11. Lists</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html">12. For Loops</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/13-conditionals.html">13. Conditionals</a></p></li>
 <li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions.html">16. Writing Functions</a></p></li>
 </ul>
+<p>The key points from each episode are <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/instructor/key-points.html">summarized here</a></p>
+</section>
+<section id="id1">
+<h3>– Break and Q/A<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+</section>
 </section>
 </section>
 
@@ -444,7 +468,7 @@ document.write(`
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Quick start / overview</p>
+        <p class="prev-next-title">Quick overview</p>
       </div>
     </a>
     <a class="right-next"
@@ -475,7 +499,13 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the Data</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#episodes-we-ll-go-through">Episodes we’ll go through</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-episodes">Lesson episodes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-basics">The basics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#break-and-q-a">– Break and Q/A</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-advanced-topics">More advanced topics</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">– Break and Q/A</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
