@@ -3,9 +3,17 @@
 **SEE MY NOTES IN INKDROP!**
 
 - Goals of this workshop
+  - Exposure to Python specifically, and programming and open source software more generally
 - What is Python
 - Some comparisons/contrasts to Matlab (since they were already introduced)
 - Installation. Choices about Python itself and GUI's, development environment
+  - Unlike Matlab or proprietary software, there are multiple choices (as is common in open source software)!
+  - Python: installation from python.org and other sources; conda (which itself has several options)
+  - Can execute from the terminal or a very simple "IDE" (IDLE) when installed from 
+  - JupyterLab, Spyder (most like Matlab), VSCode, Thonny (for learning!), PyCharm (free for education use; for heavy duty dev)
+  - We will use Anaconda conda distribution for convenience (easy installation, easy launching of JupyterLab and Spyder) (**BUT I NEED TO TEST IT MYSELF!**). 
+  - Will code mainly in Jupyter notebooks, but will briefly show running Python code in Spyder and Thonny (Thonny for follow-up, painless learning)
+  - also can use online Python tools
 - The lessons
 - Let's try to open and visualize the CTD data from your cruises! (note:install folium, cartopy, or holoviz)
 - Q&A's
