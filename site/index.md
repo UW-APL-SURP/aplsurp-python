@@ -15,6 +15,12 @@ This workshop is intended as a 3-hour workshop, but the source materials in full
 
 **More things to say about Python:** multi OS/platform; often used in introductory classes, esp. for non CS majors.
 
+- Have a brief intro about open source software
+  - freedom, openness, access, community orientation
+  - but it can be confusing
+    - often multiple different ways to do the same thing; eg, install Python, code development (different IDE's, etc)
+    - compare to the simplicity of installing Matlab (which they will have seen already)
+
 ## Installation
 
 [Installing Python and software to develop and execute](./install-run.md)

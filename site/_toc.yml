@@ -6,6 +6,7 @@ root: index
 
 chapters:
 - file: install-run
+  title: Installation, execution
 - file: overview
   title: Quick overview
 - file: lessons
