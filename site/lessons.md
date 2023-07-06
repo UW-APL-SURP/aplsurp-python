@@ -18,8 +18,6 @@ The data we will use is taken from the [gapminder](https://en.wikipedia.org/wiki
 
 The Plotting and Programming in Python lesson is intended as a workshop that takes a full day. We will go through a *subset* of the materials (referred to as "episodes") and will only highlight some specific points within each episode. The goal is to examine in more detail most of the Python and programming elements we saw in the previous "Quick overview".
 
-**SPECIFY THE KEY POINTS I WANT TO HIGHLIGHT**
-
 ### The basics
 
 - [1. Running and Quitting](https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html)
