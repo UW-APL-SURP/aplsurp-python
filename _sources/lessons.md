@@ -18,8 +18,6 @@ The data we will use is taken from the [gapminder](https://en.wikipedia.org/wiki
 
 The Plotting and Programming in Python lesson is intended as a workshop that takes a full day. We will go through a *subset* of the materials (referred to as "episodes") and will only highlight some specific points within each episode. The goal is to examine in more detail most of the Python and programming elements we saw in the previous "Quick overview".
 
-**SPECIFY THE KEY POINTS I WANT TO HIGHLIGHT**
-
 ### The basics
 
 - [1. Running and Quitting](https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html)
@@ -27,6 +25,7 @@ The Plotting and Programming in Python lesson is intended as a workshop that tak
 - [3. Data Types and Type Conversion](https://swcarpentry.github.io/python-novice-gapminder/03-types-conversion.html)
 - [4. Built-in Functions and Help](https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html)
 - [11. Lists](https://swcarpentry.github.io/python-novice-gapminder/11-lists.html)
+    - Other core Python data structures: tuples, dictionaries, sets
 - [12. For Loops](https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html)
 - [13. Conditionals](https://swcarpentry.github.io/python-novice-gapminder/13-conditionals.html)
 

@@ -1,39 +1,32 @@
 # DINO SIP Python workshop materials
 
-**SEE MY NOTES IN INKDROP!**
+A compressed introduction to Python for participants in the [DINO SIP program](https://www.apl.uw.edu/education/dino_sip.php) at the University of Washington Applied Physics Laboratory.
 
-- Goals of this workshop
-  - Exposure to Python specifically, and programming and open source software more generally
-- What is Python
-- Some comparisons/contrasts to Matlab (since they were already introduced)
-- Installation. Choices about Python itself and GUI's, development environment
-  - Unlike Matlab or proprietary software, there are multiple choices (as is common in open source software)!
-  - Python: installation from python.org and other sources; conda (which itself has several options)
-  - Can execute from the terminal or a very simple "IDE" (IDLE) when installed from 
-  - JupyterLab, Spyder (most like Matlab), VSCode, Thonny (for learning!), PyCharm (free for education use; for heavy duty dev)
-  - We will use Anaconda conda distribution for convenience (easy installation, easy launching of JupyterLab and Spyder) (**BUT I NEED TO TEST IT MYSELF!**). 
-  - Will code mainly in Jupyter notebooks, but will briefly show running Python code in Spyder and Thonny (Thonny for follow-up, painless learning)
-  - also can use online Python tools
-- The lessons
-- Let's try to open and visualize the CTD data from your cruises! (note:install folium, cartopy, or holoviz)
-- Q&A's
+## Goals
 
-In good open source fashion, I've drawn most of the content from existing open tutorials and resources.
+1. Provide *exposure* to the Python programming language and "ecosystem" specifically, and programming and open-source software more generally.
+2. Provide a ramp for future, self-guided learning to both strengthen core topics that were covered and explore new topics.
+
+With open-source software, we build on the work of others, contribute back to it, and build something new on top in collaboration with others. Rather than creating learning materials from scratch, here we'll rely on existing, open community resources. We can correct, polish and extend these materials with your input!
+
+This workshop is intended as a 3-hour workshop, but the source materials provide a longer, more comprehensive experience.
 
 ## Python
 
-[Python](https://www.python.org/) is a free, open-source, general-purpose and high-level programming language. It's relatively easy to learn, and the syntax facilitates writing new code fairly quickly. In the last few years it has become one of the most widely used general programming languages (see [here](https://pypl.github.io/PYPL.html) and [here](https://www.tiobe.com/tiobe-index/)) and also among the [most popular language for data science applications](https://r4stats.com/articles/popularity/). It's also widely used in the scientific community in general, and in Oceanography specifically (see [here](https://foundations.projectpythia.org/foundations/why-python.html) and [here](https://jose.theoj.org/papers/10.21105/jose.00037)).
+[Python](https://www.python.org/) is a free, open-source, general-purpose and high-level programming language. It's relatively easy to learn, and the syntax facilitates writing new code fairly quickly. In the last few years it has become one of the most widely used general programming languages (see [here](https://pypl.github.io/PYPL.html) and [here](https://www.tiobe.com/tiobe-index/)) and among the [most popular languages for data science applications](https://r4stats.com/articles/popularity/). It's also widely used in the scientific community in general, and in Oceanography specifically (see [here](https://foundations.projectpythia.org/foundations/why-python.html) and [here](https://jose.theoj.org/papers/10.21105/jose.00037)).
 
-**More things to say about Python:** multi OS/platform; often used in introductory classes, esp. for non CS majors.
+It runs on many operating systems (Windows, MacOS, etc), and on computers from the smallest to the largest. It's often used in introductory programming classes, especially outside Computer Science majors.
 
-## Installation
+An an **open-source** language, it is freely available to anyone for any purpose, and both the core language (Python proper) and a very large "ecosystem" of packages (libraries) engage a wide range of contributors. But this openness sometimes leads to a disorienting set of choices, including the Python version, the sources and software used to install Python and write code in Python, and specialized packages used to accomplish specific tasks. Compared to, say, Matlab, the entry points can be more confusing. But there are tons of helpful resources and communities online!
 
-installing the language vs the tools (software) used to develop and run code efficiently
+## Installation and execution
+
+[A brief overview](./install-run.md) of options for installing Python and developing and executing Python code. It points to specific instructions for installing the Anaconda distribution and the JupyterLab user interface, which we will use.
 
 ## Lessons
 
 - [Quick, live overview](./overview.md). We'll run quickly through many of the core features of the language, using a Jupyter notebook in a live session online.
 - [Detailed lessons](./lessons.md)
-- [Advanced examples](./advancedexamples.md)
+- [Advanced examples](./advancedexamples.md). We'll use a Python package to open and explore CTD data, including the data you collected last week!
 
 Plus [Python cheat sheets.](./cheatsheets.md)

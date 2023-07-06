@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Detailed lessons &#8212; DINOSIP Python workshop</title>
+    <title>Installation and execution &#8212; DINOSIP Python workshop</title>
   
   
   
@@ -60,11 +60,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'lessons';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'install-run';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Advanced examples" href="advancedexamples.html" />
-    <link rel="prev" title="Quick overview" href="overview.html" />
+    <link rel="next" title="Quick overview" href="overview.html" />
+    <link rel="prev" title="DINO SIP Python workshop materials" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -148,9 +148,9 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="install-run.html">Installation, execution</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Installation, execution</a></li>
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Quick overview</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Detailed lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lessons.html">Detailed lessons</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advancedexamples.html">Advanced examples</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cheatsheets.html">Python cheat sheets</a></li>
 </ul>
@@ -224,7 +224,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/emiliom/dinosip-python/edit/main/site/lessons.md" target="_blank"
+      <li><a href="https://github.com/emiliom/dinosip-python/edit/main/site/install-run.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -241,7 +241,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/emiliom/dinosip-python/issues/new?title=Issue%20on%20page%20%2Flessons.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/emiliom/dinosip-python/issues/new?title=Issue%20on%20page%20%2Finstall-run.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -271,7 +271,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/lessons.md" target="_blank"
+      <li><a href="_sources/install-run.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -353,7 +353,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Detailed lessons</h1>
+    <h1>Installation and execution</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -363,14 +363,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the Data</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-episodes">Lesson episodes</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-basics">The basics</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#break-and-q-a">– Break and Q/A</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-advanced-topics">More advanced topics</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">– Break and Q/A</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyterlab">Running JupyterLab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-wider-world-of-python-installation-and-development">The wider world of Python installation and development</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-no-fuss-options-for-continued-learning">Simple, no-fuss options for continued learning</a></li>
 </ul>
             </nav>
         </div>
@@ -382,56 +377,36 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="detailed-lessons">
-<h1>Detailed lessons<a class="headerlink" href="#detailed-lessons" title="Permalink to this headline">#</a></h1>
-<p>There are <strong>many</strong> free Python tutorials online; a quick search will produce a very long list. For example, <a class="reference external" href="https://realpython.com/learning-paths/python-basics/">Python Basics: Introduction to Python</a> features many detailed lessons from <a class="reference external" href="https://realpython.com">https://realpython.com</a>, which I find to be a great source for Python in-depth learning. <a class="reference external" href="https://foundations.projectpythia.org/landing-page.html">Project Pythia Foundations</a> has a great collection of more advanced tutorials especially geared for the earth sciences, including Oceanography.</p>
-<p>Instead of creating learning materials from scratch, we’ll take advantage of <a class="reference external" href="https://carpentries.org">The Carpentries, https://carpentries.org</a>, “a global community teaching foundational computational and data science skills to researchers in academia, industry and government.” Carpentries tutorials and lessons are openly accessible.</p>
-<p>Specifically, <strong>we’ll use the <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/">Plotting and Programming in Python</a> lesson from The Carpentries</strong>: “This lesson is an introduction to programming in Python 3 for people with little or no previous programming experience.” It’s also referred to as the “gapminder” lesson, based on the dataset it uses.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Another, similar Carpentries lesson that you may find helpful is <a class="reference external" href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a>: “The best way to learn how to program is to do something useful, so this introduction to Python is built around a common scientific task: data analysis.”</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="installation-and-execution">
+<h1>Installation and execution<a class="headerlink" href="#installation-and-execution" title="Permalink to this headline">#</a></h1>
+<p>In this workshop we will use the <a class="reference external" href="https://www.anaconda.com/download">Anaconda</a> Python distribution to simplify the installation and execution. We will also focus on <a class="reference external" href="https://docs.jupyter.org">Jupyter tools and computational notebooks</a> (see <a class="reference external" href="https://foundations.projectpythia.org/foundations/getting-started-jupyter.html">here, too</a>), interacting with Python code via the <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab">JupyterLab application</a> (see also <a class="reference external" href="https://foundations.projectpythia.org/foundations/jupyterlab.html">here</a> for a more detailed guide).</p>
+<div class="admonition-istalling-anaconda-in-your-computer admonition">
+<p class="admonition-title">Istalling Anaconda in your computer</p>
+<p><a class="reference external" href="https://carpentries.github.io/workshop-template/#python">Follow these instructions</a>. The videos are somewhat dated, so the screenshots may look a bit different from what you will actually see during installation. But the steps are the same. <a class="reference external" href="https://www.youtube.com/watch?v=5_hB2TNPgRc">Here is a more up-to-date, short installation video</a>, for Windows only.</p>
 </div>
-<section id="getting-the-data">
-<h2>Getting the Data<a class="headerlink" href="#getting-the-data" title="Permalink to this headline">#</a></h2>
-<p>The data we will use is taken from the <a class="reference external" href="https://en.wikipedia.org/wiki/Gapminder_Foundation">gapminder</a> dataset. To obtain it, download and unzip the file <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a>. In order to follow the presented material, you should launch JupyterLab in the folder that contains the unzipped ddadta file. (see <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab">Starting JupyterLab</a>).</p>
+<section id="running-jupyterlab">
+<h2>Running JupyterLab<a class="headerlink" href="#running-jupyterlab" title="Permalink to this headline">#</a></h2>
+<p>We will use the <a class="reference external" href="https://docs.anaconda.com/free/navigator/index.html">Anaconda Navigator</a> to launch JupyterLab. It’s included in the Anaconda installation, together with JupyterLab itself and many other applications and packages.</p>
 </section>
-<section id="lesson-episodes">
-<h2>Lesson episodes<a class="headerlink" href="#lesson-episodes" title="Permalink to this headline">#</a></h2>
-<p>The Plotting and Programming in Python lesson is intended as a workshop that takes a full day. We will go through a <em>subset</em> of the materials (referred to as “episodes”) and will only highlight some specific points within each episode. The goal is to examine in more detail most of the Python and programming elements we saw in the previous “Quick overview”.</p>
-<section id="the-basics">
-<h3>The basics<a class="headerlink" href="#the-basics" title="Permalink to this headline">#</a></h3>
+<section id="the-wider-world-of-python-installation-and-development">
+<h2>The wider world of Python installation and development<a class="headerlink" href="#the-wider-world-of-python-installation-and-development" title="Permalink to this headline">#</a></h2>
+<p>There are <strong>many</strong> options to install Python and software to develop and execute Python code! The second paragraph in <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html">this page</a> is a very brief overview.</p>
+<p>Yes, this can be pretty confusing!</p>
+<p>Python itself can be installed directly from the official Python website, <a class="reference external" href="https://python.org">https://python.org</a>. The installer includes Python, the ability to execute code at the “terminal”, and a very simple “Integrated Development Environment” (IDE) called IDLE.</p>
+<p>An initial choice one has to make is the Python <strong>version</strong>. Typically it’s best to avoid the very latest versions, and choose a slightly but more stable and more widely supported version. Today, that’s probably Python 3.10.</p>
+<p>Anaconda is based on the open-source <a class="reference external" href="https://conda.org/">conda</a> package management system. conda itself can be installed through different distributions, with different pros and cons. The other main distrubutions are <code class="docutils literal notranslate"><span class="pre">miniconda</span></code>, <code class="docutils literal notranslate"><span class="pre">mamba</span></code> and <code class="docutils literal notranslate"><span class="pre">mambaforge</span></code>. I never use the Anaconda distribution myself! The source of the packages also varies; the most widely used one in the scientific and other communities is <a class="reference external" href="https://conda-forge.org/">conda-forge</a>.</p>
+<p>We will use JupyterLab and Jupyter notebooks. But as everything Jupyter is also open source, the ability to run Jupyter notebooks is also implemented in other software. For example, <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a>, <a class="reference external" href="https://www.spyder-ide.org/">Spyder</a> and <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a> (PyCharm is not open-source but is freely available for education).</p>
+<p>For complex software development tasks, IDE’s are practically necessary. These include VSCode, Spyder and PyCharm. Typically you will write Python code directly (<code class="docutils literal notranslate"><span class="pre">*.py</span></code> files) rather than Jupyter notebooks; or some combination. Out of these IDE’s, Spyder probably resembles the Matlab interface the most. VSCode has the advantage of also being a powerful, generic text editor. IDE’s provide lots of conveniences that make coding more efficient.</p>
+<p>You can also write code (not Jupyter notebooks) directly, “by hand”, using a simple text editor; then run the code at the terminal. This is helpful in a pinch but pretty inefficient.</p>
+</section>
+<section id="simple-no-fuss-options-for-continued-learning">
+<h2>Simple, no-fuss options for continued learning<a class="headerlink" href="#simple-no-fuss-options-for-continued-learning" title="Permalink to this headline">#</a></h2>
+<p>If you’d like to polish, practice and extend your understaing of core Python language features, I recommend one of these two no-fuss options:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html">1. Running and Quitting</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/02-variables.html">2. Variables and Assignment</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/03-types-conversion.html">3. Data Types and Type Conversion</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/04-built-in.html">4. Built-in Functions and Help</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/11-lists.html">11. Lists</a></p>
-<ul>
-<li><p>Other core Python data structures: tuples, dictionaries, sets</p></li>
+<li><p><a class="reference external" href="https://thonny.org">Thonny</a>, a straightforward desktop software that also installs Python for its own use. Simple installation, few distractions, and helpful tools.</p></li>
+<li><p>Online Python execution sites. There are many options, but this one looks good: <a class="reference external" href="https://www.online-python.com">https://www.online-python.com</a></p></li>
 </ul>
-</li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/12-for-loops.html">12. For Loops</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/13-conditionals.html">13. Conditionals</a></p></li>
-</ul>
-</section>
-<section id="break-and-q-a">
-<h3>– Break and Q/A<a class="headerlink" href="#break-and-q-a" title="Permalink to this headline">#</a></h3>
-</section>
-<section id="more-advanced-topics">
-<h3>More advanced topics<a class="headerlink" href="#more-advanced-topics" title="Permalink to this headline">#</a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://foundations.projectpythia.org/core/numpy/numpy-basics.html">Numpy – from Project Pythia</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/06-libraries.html">6. Libraries</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/07-reading-tabular.html">7. Reading Tabular Data into DataFrames</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/08-data-frames.html">8. Pandas DataFrames</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/09-plotting.html">9. Plotting</a></p></li>
-<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/16-writing-functions.html">16. Writing Functions</a></p></li>
-</ul>
-<p>The key points from each episode are <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/instructor/key-points.html">summarized here</a></p>
-</section>
-<section id="id1">
-<h3>– Break and Q/A<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
-</section>
+<p>These are great resources for initial learning, but not for Python code development for actual, more complex work.</p>
 </section>
 </section>
 
@@ -467,20 +442,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="overview.html"
+       href="index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Quick overview</p>
+        <p class="prev-next-title">DINO SIP Python workshop materials</p>
       </div>
     </a>
     <a class="right-next"
-       href="advancedexamples.html"
+       href="overview.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Advanced examples</p>
+        <p class="prev-next-title">Quick overview</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -502,14 +477,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-the-data">Getting the Data</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-episodes">Lesson episodes</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-basics">The basics</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#break-and-q-a">– Break and Q/A</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-advanced-topics">More advanced topics</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">– Break and Q/A</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyterlab">Running JupyterLab</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-wider-world-of-python-installation-and-development">The wider world of Python installation and development</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-no-fuss-options-for-continued-learning">Simple, no-fuss options for continued learning</a></li>
 </ul>
   </nav></div>
 
