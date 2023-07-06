@@ -1,24 +1,13 @@
 # DINO SIP Python workshop materials
 
-**SEE MY NOTES IN INKDROP!**
+## Goals
 
-- Goals of this workshop
-  - Exposure to Python specifically, and programming and open source software more generally
-- What is Python
-- Some comparisons/contrasts to Matlab (since they were already introduced)
-- Installation. Choices about Python itself and GUI's, development environment
-  - Unlike Matlab or proprietary software, there are multiple choices (as is common in open source software)!
-  - Python: installation from python.org and other sources; conda (which itself has several options)
-  - Can execute from the terminal or a very simple "IDE" (IDLE) when installed from 
-  - JupyterLab, Spyder (most like Matlab), VSCode, Thonny (for learning!), PyCharm (free for education use; for heavy duty dev)
-  - We will use Anaconda conda distribution for convenience (easy installation, easy launching of JupyterLab and Spyder) (**BUT I NEED TO TEST IT MYSELF!**). 
-  - Will code mainly in Jupyter notebooks, but will briefly show running Python code in Spyder and Thonny (Thonny for follow-up, painless learning)
-  - also can use online Python tools
-- The lessons
-- Let's try to open and visualize the CTD data from your cruises! (note:install folium, cartopy, or holoviz)
-- Q&A's
+1. Provide exposure to the Python programming language and "ecosystem" specifically, and programming and open-source software more generally.
+2. Provide a ramp for future, self-guided learning to both strengthen core topics that were covered and explore new topics.
 
-In good open source fashion, I've drawn most of the content from existing open tutorials and resources.
+With open-source software, we build on the work of others, contribute back to it, and build something new on top in collaboration with others. Rather than creating learning materials from scratch, here we'll rely on existing, open community resources. We can correct, polish and extend these materials with your input!
+
+This workshop is intended as a 3-hour workshop, but the source materials in full provide a longer, more comprehensive experience.
 
 ## Python
 
@@ -28,12 +17,14 @@ In good open source fashion, I've drawn most of the content from existing open t
 
 ## Installation
 
+[Installing Python and software to develop and execute](./install-run.md)
+
 installing the language vs the tools (software) used to develop and run code efficiently
 
 ## Lessons
 
 - [Quick, live overview](./overview.md). We'll run quickly through many of the core features of the language, using a Jupyter notebook in a live session online.
 - [Detailed lessons](./lessons.md)
-- [Advanced examples](./advancedexamples.md)
+- [Advanced examples](./advancedexamples.md). We'll use a Python package to open and explore CTD data, including the data you collected last week!
 
 Plus [Python cheat sheets.](./cheatsheets.md)
