@@ -1,13 +1,14 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: DINOSIP Python workshop
-author: Emilio Mayorga
-logo: img/dinosip-logo.png
+title: APL SURP Python Course
+author: Emilio Mayorga, Ethan Campbell
+copyright: "2025"
+logo: img/surp_logo_115x168.png
 # HMM, where do these show up?
-announcement: Python tour workshop for DINO SIP
+announcement: Python course for APL SURP program
 description: >-
-  Python tour workshop for DINO SIP
+  Python course for APL SURP program
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -25,16 +26,16 @@ parse:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/emiliom/dinosip-python  # Online location of your book
+  url: https://github.com/UW-APL-SURP/aplsurp-python  # Online location of your book
   path_to_book: site  # Optional path to your book, relative to the repository root
   branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  #baseurl: https://emiliom.github.io/nica-ecocomputacion/
-  #favicon: imagenes/favicon1.ico
-  home_page_in_navbar: false
+  #baseurl: https://UW-APL-SURP.github.io/aplsurp-python/
+  #favicon: img/favicon1.ico
+  home_page_in_navbar: true
   #extra_navbar: ""
   use_issues_button: true
   use_repository_button: true

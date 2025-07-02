@@ -2,15 +2,28 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: index 
-
-chapters:
-- file: install-run
-  title: Installation, execution
-- file: overview
-  title: Quick overview
-- file: lessons
-  title: Detailed lessons
-- file: advancedexamples
-  title: Advanced examples
-- file: cheatsheets
+root: index
+parts:
+- caption: 
+  chapters:
+  - file: python
+  - file: overview
+  - file: install-run
+    title: Running Python
+- caption: Main lessons
+  chapters:
+  - file: lessons/index
+    title: Overview
+  - file: "lessons/Python lesson (Day 2) - blank copy.ipynb"
+    title: Day 1
+  - file: "lessons/Python lesson (Day 3) - blank copy.ipynb"
+    title: Day 2
+  - file: "lessons/Python lesson (Day 4) - blank copy.ipynb"
+    title: Day 3
+- caption: Other resources
+  chapters:
+  - file: complementary_lessons
+    title: Complementary lessons
+  - file: cheatsheets
+  - file: advancedexamples
+    title: Advanced examples

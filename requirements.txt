@@ -1,5 +1,5 @@
 jupyter-book
-attrs<22
-nbclient<0.6
+attrs
+nbclient
 matplotlib
 numpy

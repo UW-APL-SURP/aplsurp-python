@@ -1,13 +1,14 @@
-name: dinosip-python-web
+name: aplsurp-python-web
 channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.9
+  - python=3.12
   - pip
   - jupyter-book
   - ipykernel
   - ghp-import
+  - folium
   - matplotlib
   - numpy
   - pandas
@@ -15,6 +16,5 @@ dependencies:
   # - geopandas
   # - xarray
   # - seaborn
-  # - folium
   # - cartopy
 
