@@ -408,7 +408,6 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-colab">Google Colab</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-installation-and-execution">Local installation and execution</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyterlab">Running JupyterLab</a></li>
 </ul>
@@ -428,26 +427,17 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="running-python">
 <h1>Running Python<a class="headerlink" href="#running-python" title="Link to this heading">#</a></h1>
-<p><strong>TODO:</strong></p>
-<ul class="simple">
-<li><p>Mention Google Colab, and that we will use it in the main lessons</p></li>
-<li><p>Provide context for the materials below on local installation</p></li>
-<li><p>Update the text below as needed, including to remove language about “we will use this”</p></li>
-<li><p>Miniforge: recommend it instead of Anaconda? Or at least mention it as a good alternative, and why</p></li>
-</ul>
-<section id="google-colab">
-<h2>Google Colab<a class="headerlink" href="#google-colab" title="Link to this heading">#</a></h2>
-</section>
+<p>We use <a class="reference external" href="https://colab.google">Google Colab</a> to run the instructor-led Python lessons for the first three weeks. Google Colab makes it really convenient for others to run <a class="reference external" href="https://docs.jupyter.org/en/latest/what_is_jupyter.html">Jupyter</a> notebooks. There’s no need to install or download anything in your computer. For many, Colab may also be all you need to use Python effectively for your SURP research project needs. However, some may find it necessary or convenient to set up a Python environment in your own computer or a project team server. The instructions below will help you get set up, and also provide a broader background.</p>
 <section id="local-installation-and-execution">
 <h2>Local installation and execution<a class="headerlink" href="#local-installation-and-execution" title="Link to this heading">#</a></h2>
-<p>In this workshop we will use the <a class="reference external" href="https://www.anaconda.com/download">Anaconda</a> Python distribution to simplify the installation and execution. We will also focus on <a class="reference external" href="https://docs.jupyter.org">Jupyter tools and computational notebooks</a> (see <a class="reference external" href="https://foundations.projectpythia.org/foundations/getting-started-jupyter.html">here, too</a>), interacting with Python code via the <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab">JupyterLab application</a> (see also <a class="reference external" href="https://foundations.projectpythia.org/foundations/jupyterlab.html">here</a> for a more detailed guide).</p>
+<p>We recommend the use of the <a class="reference external" href="https://www.anaconda.com/download">Anaconda</a> Python distribution to simplify the Python installation and execution of Python code files and Jupyter notebooks (the Python lessons notebooks that run on Google Colab are also Jupyter notebooks). For notebooks, we recommend <a class="reference external" href="https://docs.jupyter.org">Jupyter tools and computational notebooks</a> (see <a class="reference external" href="https://foundations.projectpythia.org/foundations/getting-started-jupyter.html">here, too</a>), interacting with Python code via the <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab">JupyterLab application</a> (see also <a class="reference external" href="https://foundations.projectpythia.org/foundations/jupyterlab.html">here</a> for a more detailed guide).</p>
 <div class="admonition-istalling-anaconda-in-your-computer admonition">
 <p class="admonition-title">Istalling Anaconda in your computer</p>
 <p><a class="reference external" href="https://carpentries.github.io/workshop-template/#python">Follow these instructions</a>. The videos are somewhat dated, so the screenshots may look a bit different from what you will actually see during installation. But the steps are the same. <a class="reference external" href="https://www.youtube.com/watch?v=5_hB2TNPgRc">Here is a more up-to-date, short installation video</a>, for Windows only.</p>
 </div>
 <section id="running-jupyterlab">
 <h3>Running JupyterLab<a class="headerlink" href="#running-jupyterlab" title="Link to this heading">#</a></h3>
-<p>We will use the <a class="reference external" href="https://docs.anaconda.com/free/navigator/index.html">Anaconda Navigator</a> to launch JupyterLab. It’s included in the Anaconda installation, together with JupyterLab itself and many other applications and packages.</p>
+<p>Use the <a class="reference external" href="https://www.anaconda.com/docs/tools/anaconda-navigator/main">Anaconda Navigator</a> to launch JupyterLab. It’s included in the Anaconda installation, together with JupyterLab itself and many other applications and packages. Working with notebooks in JupyterLab will be familiar after you’ve used Google Colab.</p>
 </section>
 </section>
 <section id="the-wider-world-of-python-installation-and-development">
@@ -455,20 +445,20 @@ document.write(`
 <p>There are <strong>many</strong> options to install Python and software to develop and execute Python code! The second paragraph in <a class="reference external" href="https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html">this page</a> is a very brief overview.</p>
 <p>Yes, this can be pretty confusing!</p>
 <p>Python itself can be installed directly from the official Python website, <a class="reference external" href="https://python.org">https://python.org</a>. The installer includes Python, the ability to execute code at the “terminal”, and a very simple “Integrated Development Environment” (IDE) called IDLE.</p>
-<p>An initial choice one has to make is the Python <strong>version</strong>. Typically it’s best to avoid the very latest versions, and choose a slightly but more stable and more widely supported version. Today, that’s probably Python 3.10.</p>
-<p>Anaconda is based on the open-source <a class="reference external" href="https://conda.org/">conda</a> package management system. conda itself can be installed through different distributions, with different pros and cons. The other main distrubutions are <code class="docutils literal notranslate"><span class="pre">miniconda</span></code>, <code class="docutils literal notranslate"><span class="pre">mamba</span></code> and <code class="docutils literal notranslate"><span class="pre">mambaforge</span></code>. I never use the Anaconda distribution myself! The source of the packages also varies; the most widely used one in the scientific and other communities is <a class="reference external" href="https://conda-forge.org/">conda-forge</a>.</p>
-<p>We will use JupyterLab and Jupyter notebooks. But as everything Jupyter is also open source, the ability to run Jupyter notebooks is also implemented in other software. For example, <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a>, <a class="reference external" href="https://www.spyder-ide.org/">Spyder</a> and <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a> (PyCharm is not open-source but is freely available for education).</p>
+<p>An initial choice one has to make is the Python <strong>version</strong>. Typically it’s best to avoid the very latest versions, and choose a slightly but more stable and more widely supported version. Today (July 2025), that’s probably Python 3.12.</p>
+<p>Anaconda is based on the open-source <a class="reference external" href="https://conda.org/">conda</a> package management system. <code class="docutils literal notranslate"><span class="pre">conda</span></code> itself can be installed through different distributions, with different pros and cons. Other important distrubutions are <a class="reference external" href="https://www.anaconda.com/docs/getting-started/miniconda/main">miniconda</a>, <a class="reference external" href="https://conda-forge.org/download/">miniforge</a> and <a class="reference external" href="https://mamba.readthedocs.io">mamba</a>. The <em>source</em> of the <code class="docutils literal notranslate"><span class="pre">conda</span></code> packages also varies; the most widely used one in the scientific and other communities is <a class="reference external" href="https://conda-forge.org/">conda-forge</a>.</p>
+<p>As everything released by the Jupyter project is open-source, the ability to run Jupyter notebooks is also implemented in other software not developed directly by the Jupyter project. For example, <a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code (VSCode)</a>, <a class="reference external" href="https://www.spyder-ide.org/">Spyder</a> and <a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm</a> (PyCharm is not open-source but is freely available for education).</p>
 <p>For complex software development tasks, IDE’s are practically necessary. These include VSCode, Spyder and PyCharm. Typically you will write Python code directly (<code class="docutils literal notranslate"><span class="pre">*.py</span></code> files) rather than Jupyter notebooks; or some combination. Out of these IDE’s, Spyder probably resembles the Matlab interface the most. VSCode has the advantage of also being a powerful, generic text editor. IDE’s provide lots of conveniences that make coding more efficient.</p>
 <p>You can also write code (not Jupyter notebooks) directly, “by hand”, using a simple text editor; then run the code at the terminal. This is helpful in a pinch but pretty inefficient.</p>
 </section>
 <section id="simple-no-fuss-options-for-continued-learning">
 <h2>Simple, no-fuss options for continued learning<a class="headerlink" href="#simple-no-fuss-options-for-continued-learning" title="Link to this heading">#</a></h2>
-<p>If you’d like to polish, practice and extend your understaing of core Python language features, I recommend one of these two no-fuss options:</p>
+<p>If you’d like to polish, practice and extend your understaing of core Python language features, you can use Google Colab or one of these two no-fuss options:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://thonny.org">Thonny</a>, a straightforward desktop software that also installs Python for its own use. Simple installation, few distractions, and helpful tools.</p></li>
 <li><p>Online Python execution sites. There are many options, but this one looks good: <a class="reference external" href="https://www.online-python.com">https://www.online-python.com</a></p></li>
 </ul>
-<p>These are great resources for initial learning, but not for Python code development for actual, more complex work.</p>
+<p>These two are great resources for initial learning, but not for Python code development for actual, more complex work.</p>
 </section>
 </section>
 
@@ -536,7 +526,6 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-colab">Google Colab</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-installation-and-execution">Local installation and execution</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-jupyterlab">Running JupyterLab</a></li>
 </ul>
