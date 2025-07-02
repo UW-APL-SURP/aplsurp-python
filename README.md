@@ -10,9 +10,9 @@
     - See my local clone of Ethan's repo: `/home/mayorga/Desktop/DEI/APL/2021_DON_APL-DID-NOW/Python-crashcourse/NCAT_MATE_floats_teaching/`
     - Use [url encoding](https://meyerweb.com/eric/tools/dencoder/) to transform the names of the notebook files if they have spaces and other unsafe characters
 
-## Hackaton OHW en español
+## Stuff in Spanish about Jupyter Book that I'm going to cull and translate
 
-*(Este texto es preliminar. Lo puliré y ampliaré luego)*
+## From Hackaton OHW en español
 
 Con el [Jupyter Book](https://jupyterbook.org) (y muchos sistemas parecidos), uno modifica los archivos "fuente", típicamente en markdown, y luego "genera" los archivos del sitio en sí. Pueden leer sobre esto [aquí](https://jupyterbook.org/en/stable/basics/building/index.html). 
 
