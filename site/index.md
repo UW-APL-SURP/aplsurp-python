@@ -1,28 +1,18 @@
 # APL SURP Python Course
 
-A compressed introduction to Python for participants in the [APL SURP (Summer Undergraduate Research) Program](https://www.apl.uw.edu/education/dino_sip.php) at the University of Washington Applied Physics Laboratory.
+An introduction to [Python in Oceanography](python) for participants in the [APL SURP (Summer Undergraduate Research) Program](https://www.apl.uw.edu/education/dino_sip.php) at the University of Washington [Applied Physics Laboratory](https://apl.uw.edu). This course will provide a foundation to the Python programming language and "ecosystem" specifically, and programming and open-source software more generally.
 
 ## Goals
 
-1. Provide *exposure* to the Python programming language and "ecosystem" specifically, and programming and open-source software more generally.
+1. Introduce Python and its use in Oceanography through hands-on notebooks, to serve as a foundation for using Python in SURP research projects.
 2. Provide a ramp for future, self-guided learning to both strengthen core topics that were covered and explore new topics.
 
-With open-source software, we build on the work of others, contribute back to it, and build something new on top in collaboration with others. Rather than creating learning materials from scratch, here we'll rely on existing, open community resources. We can correct, polish and extend these materials with your input!
+## Course descriptions
 
-This workshop is intended as a 3-hour workshop, but the source materials provide a longer, more comprehensive experience.
+The structured part of the course consists of [three 90-minute weekly lessons](lessons/index) led by APL instructors ([Ethan Campbell](https://github.com/ethan-campbell) and [Emilio Mayorga](https://github.com/emiliom)). The lessons will be in the form of interactive computational notebooks (["Jupyter"](https://docs.jupyter.org/en/latest/what_is_jupyter.html) notebooks) running in [Google Colab](https://colab.google) for convenience.
 
-## Installation and execution
+After the third week, we will hold weekly "office hours" for anyone to drop in and ask anything about Python or related topics.
 
-[A brief overview](./install-run.md) of options for installing Python and developing and executing Python code. It points to specific instructions for installing the Anaconda distribution and the JupyterLab user interface, which we will use.
+This site also provides other materials for continued and deeper learning; see the *Other resources* section on the left. The content of this site, including the Jupyter notebooks used in the lessons, is open-source and available on GitHub at https://github.com/UW-APL-SURP/aplsurp-python.
 
-## Lessons
-
-- HERE LIST PRIMARILY ETHAN'S NOTEBOOKS
-- BUT ADD A SECTION FOR MY OTHER MATERIALS (SEPARATED INTO CORE PYTHON VS MY ADVANCED EXAMPLES)
-- Also weave the individual lessons (from Carpentry & Pythia) into the notebooks, or as additional notes here next to each notebook
-
-- [Quick, live overview](./overview.md). We'll run quickly through many of the core features of the language, using a Jupyter notebook in a live session online.
-- [Detailed lessons](./lessons.md)
-- [Advanced examples](./advancedexamples.md). We'll use a Python package to open and explore CTD data, including the data you collected last week!
-
-Plus [Python cheat sheets.](./cheatsheets.md)
+Python is an open-source programming language. With open-source software, we are able to build on the work of others, contribute back to it, and build something new on top in collaboration with others. 

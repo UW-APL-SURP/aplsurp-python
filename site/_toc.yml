@@ -8,8 +8,6 @@ parts:
   chapters:
   - file: python
   - file: overview
-  - file: install-run
-    title: Running Python
 - caption: Main lessons
   chapters:
   - file: lessons/index
@@ -22,6 +20,8 @@ parts:
     title: Day 3
 - caption: Other resources
   chapters:
+  - file: install-run
+    title: Running Python
   - file: complementary_lessons
     title: Complementary lessons
   - file: cheatsheets

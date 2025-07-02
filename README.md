@@ -3,12 +3,17 @@
 **(NONE OF THIS IS ON THE PUBLIC-REPO README. DELETE, ADAPT)**
 
 - ~~Rename the base folder to aplsurp-python~~
-- Conda env (previously `dinosip-python-web`, now renamed to `aplsurp-python-web`): I currently just use `environment.yml`. But maybe `requirements.txt` will be needed later for CI-based builds on GH
+- ~~Conda env (previously `dinosip-python-web`, now renamed to `aplsurp-python-web`)~~
+- Conda env: I currently just use `environment.yml`. But maybe `requirements.txt` will be needed later for CI-based builds on GH
 - To build the site: `jb build site` (or `jb clean site` first)
 - To preview it: open the file `site/_build/html/index.html`
+- To publish: `ghp-import -n -p -f --remote origin site/_build/html`
 - Integrating Ethan's notebooks:
     - See my local clone of Ethan's repo: `/home/mayorga/Desktop/DEI/APL/2021_DON_APL-DID-NOW/Python-crashcourse/NCAT_MATE_floats_teaching/`
     - Use [url encoding](https://meyerweb.com/eric/tools/dencoder/) to transform the names of the notebook files if they have spaces and other unsafe characters
+- Say something about notebooks: Jupyter notebooks vs notebooks in Colab
+- Weave the individual lessons (from Carpentry & Pythia) into the notebooks, or as additional notes here next to each notebook
+
 
 ## Stuff in Spanish about Jupyter Book that I'm going to cull and translate
 
