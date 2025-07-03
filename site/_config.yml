@@ -41,6 +41,9 @@ html:
   use_repository_button: true
   use_edit_page_button: true
 
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
 sphinx:
   config:
     language: en
