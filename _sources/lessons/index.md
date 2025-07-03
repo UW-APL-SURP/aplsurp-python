@@ -1,10 +1,11 @@
 # APL SURP lessons
 
-Lessons we will go through on the first three days.
+1. [Day 1](APL_SURP_Python_course_Notebook_1.ipynb): Python basics - variables, arrays, tabular data, plotting, and debugging <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_1.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
-1. [Day 1](Python%20lesson%20(Day%202)%20-%20blank%20copy.ipynb). Python basics.
-2. [Day 2](Python%20lesson%20(Day%203)%20-%20blank%20copy.ipynb). Time series, advanced Pandas features.
-3. [Day 3](Python%20lesson%20(Day%204)%20-%20blank%20copy.ipynb). Oceanographic data: CTD casts, Seaglider, Argo floats.
-    - See also the [Advanced Examples page](../advancedexamples)
+2. Day 2: Coming soon
 
-To learn about these topics in more detail, see the external lessons we've curated in the [Complementary lesssons page](../complementary_lessons).
+More lessons will be added to this page throughout the summer.
+
+To learn about Python topics in more detail, see the external lessons we've curated in the [Complementary lesssons page](../complementary_lessons) and the [Advanced Examples page](../advancedexamples).
