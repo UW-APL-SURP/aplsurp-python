@@ -5,9 +5,11 @@ We use [Google Colab](https://colab.google) to run the instructor-led Python les
 
 ## Local installation and execution
 
+### Anaconda distribution
+
 We recommend the use of the [Anaconda](https://www.anaconda.com/download) Python distribution to simplify the Python installation and execution of Python code files and Jupyter notebooks (the Python lessons notebooks that run on Google Colab are also Jupyter notebooks). For notebooks, we recommend [Jupyter tools and computational notebooks](https://docs.jupyter.org) (see [here, too](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html)), interacting with Python code via the [JupyterLab application](https://swcarpentry.github.io/python-novice-gapminder/01-run-quit.html#starting-jupyterlab) (see also [here](https://foundations.projectpythia.org/foundations/jupyterlab.html) for a more detailed guide).
 
-```{admonition} Istalling Anaconda in your computer
+```{admonition} Installing Anaconda on your computer
 [Follow these instructions](https://carpentries.github.io/workshop-template/#python). The videos are somewhat dated, so the screenshots may look a bit different from what you will actually see during installation. But the steps are the same. [Here is a more up-to-date, short installation video](https://www.youtube.com/watch?v=5_hB2TNPgRc), for Windows only.
 ```
 
