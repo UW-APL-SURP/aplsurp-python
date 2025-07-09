@@ -4,7 +4,7 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-   * To open a blank copy: <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_1_blank_copy.ipynb">
+   * To open a blank notebook copy: <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_1_blank_copy.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
