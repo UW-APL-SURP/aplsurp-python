@@ -4,13 +4,19 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-   * To open a blank notebook copy: <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_1_blank_copy.ipynb">
+   * To open a blank copy: <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_1_blank_copy.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-2. [Day 2](APL_SURP_Python_course_Notebook_2_blank_copy.ipynb): 2-D arrays, tabular data, plotting, and more <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_2_blank_copy.ipynb">
+2. [Day 2](APL_SURP_Python_course_Notebook_2.ipynb): 2-D arrays, tabular data, datetimes, and more <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_2.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
+   * To open a blank copy: <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_2_blank_copy.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+3. Day 3: Coming soon
 
 More lessons will be added to this page throughout the summer.
 
