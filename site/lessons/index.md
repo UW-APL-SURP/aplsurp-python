@@ -25,10 +25,14 @@
 </a>
 
 
-4. [Day 4](APL_SURP_Python_course_Notebook_4_blank_copy.ipynb): If statements, for loops, xarray, and netCDF files <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_4_blank_copy.ipynb">
+4. [Day 4](APL_SURP_Python_course_Notebook_4.ipynb): If statements, for loops, xarray, and netCDF files <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_4.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+   * To open a blank copy: <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_4_blank_copy.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
 More lessons will be added to this page throughout the summer.
 
-To learn about Python topics in more detail, see the external lessons we've curated in the [Complementary lesssons page](../complementary_lessons) and the [Advanced examples page](../advancedexamples).
+To learn about Python topics in more detail, see the external lessons we've curated in the [Complementary lessons page](../complementary_lessons) and the [Advanced examples page](../advancedexamples).

@@ -18,7 +18,7 @@ parts:
     title: Day 2
   - file: "lessons/APL_SURP_Python_course_Notebook_3.ipynb"
     title: Day 3
-  - file: "lessons/APL_SURP_Python_course_Notebook_4_blank_copy.ipynb"
+  - file: "lessons/APL_SURP_Python_course_Notebook_4.ipynb"
     title: Day 4
 - caption: Other resources
   chapters:
