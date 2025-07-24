@@ -24,7 +24,10 @@
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-4. Day 4: Coming soon
+
+4. [Day 4](APL_SURP_Python_course_Notebook_4_blank_copy.ipynb): If statements, for loops, xarray, and netCDF files <a target="_blank" href="https://colab.research.google.com/github/UW-APL-SURP/aplsurp-python/blob/main/site/lessons/APL_SURP_Python_course_Notebook_4_blank_copy.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 More lessons will be added to this page throughout the summer.
 
