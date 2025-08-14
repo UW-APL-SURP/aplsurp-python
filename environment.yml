@@ -12,6 +12,9 @@ dependencies:
   - matplotlib
   - numpy
   - pandas
+  - ctd
+  - folium
+  - gsw
   - seabird
   # - geopandas
   # - xarray

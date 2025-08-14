@@ -1,6 +1,7 @@
-_build/
 *.code-workspace
 .DS_Store
+_build/
+site/notebooks/dinosip-python-cnvs
 
 
 # Byte-compiled / optimized / DLL files

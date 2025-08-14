@@ -1,18 +1,19 @@
 # Advanced examples
 
-## Reading a SeaBird CTD `.cnv` data file
+## Reading and visualizing cast data from SeaBird CTD `.cnv` data files
 
-[SeaBird](https://www.seabird.com/) CTD instruments are widely used in Oceanography. Reading SeaBird CTD `.cnv` data files is therefore a common task. The files are text based and one could write code from scratch to read and parse them, but then lots of people would be reinventing the wheel, imperfectly.
+[SeaBird](https://www.seabird.com/) CTD instruments are widely used in Oceanography. SeaBird CTD software also integrate data from other sensors. Reading SeaBird CTD `.cnv` data files is therefore a common task. The files are text based and one could write code from scratch to read and parse them, but then lots of people would be reinventing the wheel, imperfectly. 
 
-We will use the existing `ctd` open-source Python package, https://pyoceans.github.io/python-ctd/. We'll go through a [notebook found on that site](https://pyoceans.github.io/python-ctd/quick_intro-output.html#Reading-and-plotting) that demonstrates its use; I copied the notebook to [notebooks/ctd-quick_intro.ipynb](./notebooks/ctd-quick_intro.ipynb). It can be run by installing the `ctd` package in your conda environment. If at the terminal, you'd do this, where `my_conda_env` is the name of your conda environment:
+In the [read-aplsurp-ctd-casts-with-ctd-package.ipynb](notebooks/read-aplsurp-ctd-casts-with-ctd-package.ipynb) notebook, we use the [`ctd` open-source package](https://pyoceans.github.io/python-ctd/) to read SeaBird CTD files and the [`folium` open-source package](https://python-visualization.github.io/folium/) to create interactive maps of cast locations using information read from the cast files. 
+
+To see more of the capabilities of the `ctd` package, check out the [demonstration notebook found on the ctd website](https://pyoceans.github.io/python-ctd/quick_intro-output.html). 
+
+
+<!-- It can be run by installing the `ctd` package in your conda environment. If at the terminal, you'd do this, where `my_conda_env` is the name of your conda environment:
 ```bash
 conda activate my_conda_env
 conda install -c conda-forge ctd
-```
-
-Here's a depth profile image created by the `ctd` example notebook:
-
-![CTD profile](https://pyoceans.github.io/python-ctd/_images/quick_intro-output_23_0.png)
+``` -->
 
 
 ```{note}
