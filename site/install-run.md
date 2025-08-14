@@ -25,9 +25,9 @@ Yes, this can be pretty confusing!
 
 Python itself can be installed directly from the official Python website, https://python.org. The installer includes Python, the ability to execute code at the "terminal", and a very simple "Integrated Development Environment" (IDE) called IDLE.
 
-An initial choice one has to make is the Python **version**. Typically it's best to avoid the very latest versions, and choose a slightly but more stable and more widely supported version. Today (July 2025), that's probably Python 3.12.
+An initial choice one has to make is the Python **version**. Typically it's best to avoid the very latest versions, and choose slightly older but more stable and more widely supported versions. Today (July 2025), that's Python 3.13 and 3.12.
 
-Anaconda is based on the open-source [conda](https://conda.org/) package management system. `conda` itself can be installed through different distributions, with different pros and cons. Other important distrubutions are [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), [miniforge](https://conda-forge.org/download/) and [mamba](https://mamba.readthedocs.io). The *source* of the `conda` packages also varies; the most widely used one in the scientific and other communities is [conda-forge](https://conda-forge.org/).
+Anaconda is based on the open-source [conda](https://conda.org/) package management system. `conda` itself can be installed through different distributions, with different pros and cons. Other important distributions are [miniconda](https://www.anaconda.com/docs/getting-started/miniconda/main), [miniforge](https://conda-forge.org/download/) and [mamba](https://mamba.readthedocs.io). The *source* of the `conda` packages also varies; the most widely used one in the scientific and other communities is [conda-forge](https://conda-forge.org/).
 
 As everything released by the Jupyter project is open-source, the ability to run Jupyter notebooks is also implemented in other software not developed directly by the Jupyter project. For example, [Visual Studio Code (VSCode)](https://code.visualstudio.com/), [Spyder](https://www.spyder-ide.org/) and [PyCharm](https://www.jetbrains.com/pycharm/) (PyCharm is not open-source but is freely available for education).
 
