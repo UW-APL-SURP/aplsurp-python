@@ -8,6 +8,8 @@ parts:
   chapters:
   - file: python
   - file: overview
+  - file: install-run
+    title: Running Python
 - caption: Main lessons
   chapters:
   - file: lessons/index
@@ -20,12 +22,14 @@ parts:
     title: Day 3
   - file: "lessons/APL_SURP_Python_course_Notebook_4.ipynb"
     title: Day 4
+- caption: Advanced examples
+  chapters:
+  - file: advancedexamples
+    title: Overview
+  - file: notebooks/read-aplsurp-ctd-casts-with-ctd-package.ipynb
+    title: Examine SeaBird CTD files
 - caption: Other resources
   chapters:
-  - file: install-run
-    title: Running Python
   - file: complementary_lessons
     title: Complementary lessons
   - file: cheatsheets
-  - file: advancedexamples
-    title: Advanced examples
