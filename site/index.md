@@ -1,6 +1,6 @@
 # APL SURP Python Course
 
-An introduction to [Python in Oceanography](python) for participants in the [APL SURP (Summer Undergraduate Research) Program](https://www.apl.uw.edu/education/dino_sip.php) at the University of Washington [Applied Physics Laboratory](https://apl.uw.edu). This course will provide a foundation to the Python programming language and "ecosystem" specifically, and programming and open-source software more generally.
+An introduction to [Python in Oceanography](python) for participants in the [APL SURP (Summer Undergraduate Research) Program](https://www.apl.uw.edu/education/surp.php) at the University of Washington [Applied Physics Laboratory](https://apl.uw.edu). This course will provide a foundation to the Python programming language and "ecosystem" specifically, and programming and open-source software more generally.
 
 ## Goals
 
@@ -9,9 +9,9 @@ An introduction to [Python in Oceanography](python) for participants in the [APL
 
 ## Course descriptions
 
-The structured part of the course consists of [three 90-minute weekly lessons](lessons/index) led by APL instructors ([Ethan Campbell](https://github.com/ethan-campbell) and [Emilio Mayorga](https://github.com/emiliom)). The lessons will be in the form of interactive computational notebooks (["Jupyter"](https://docs.jupyter.org/en/latest/what_is_jupyter.html) notebooks) running in [Google Colab](https://colab.google) for convenience.
+The structured part of the course consists of [four 90-minute weekly lessons](lessons/index) led by APL instructors ([Ethan Campbell](https://github.com/ethan-campbell) and [Emilio Mayorga](https://github.com/emiliom)). The lessons will be in the form of interactive computational notebooks (["Jupyter"](https://docs.jupyter.org/en/latest/what_is_jupyter.html) notebooks) running in [Google Colab](https://colab.google) for convenience.
 
-After the third week, we will hold weekly "office hours" for anyone to drop in and ask anything about Python or related topics.
+After the fourth week, we will hold weekly "office hours" for anyone to drop in and ask anything about Python or related topics.
 
 This site also provides other materials for continued and deeper learning; see the *Other resources* section on the left. The content of this site, including the Jupyter notebooks used in the lessons, is open-source and available on GitHub at https://github.com/UW-APL-SURP/aplsurp-python.
 
