@@ -5,15 +5,15 @@ channels:
 dependencies:
   - python=3.12
   - pip
-  - jupyter-book
+  - jupyter-book<2
   - ipykernel
   - ghp-import
   - folium
   - matplotlib
   - numpy
   - pandas
+  # ocean data processing
   - ctd
-  - folium
   - gsw
   - seabird
   # - geopandas
