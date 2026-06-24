@@ -11,7 +11,7 @@ An introduction to [Python in Oceanography](python) for participants in the [APL
 
 The structured part of the course consists of [four 90-minute weekly lessons](lessons/index) led by APL instructors ([Ethan Campbell](https://github.com/ethan-campbell) and [Emilio Mayorga](https://github.com/emiliom)). The lessons will be in the form of interactive computational notebooks (["Jupyter"](https://docs.jupyter.org/en/latest/what_is_jupyter.html) notebooks) running in [Google Colab](https://colab.google) for convenience.
 
-After the fourth week, we will hold weekly "office hours" for anyone to drop in and ask anything about Python or related topics.
+After the fourth week, we will hold weekly "office hours" for anyone to drop in and ask anything about Python or related topics. But free to email us at any time with programming-related questions this summer: [Ethan](mailto:ethancc@uw.edu) and [Emilio](mailto:emiliom@uw.edu) can help with Python, [Aditya Khuller](mailto:akhuller@uw.edu) can help with Matlab, and [Erin Firth](mailto:pontus@uw.edu) can help with R.
 
 This site also provides other materials for continued and deeper learning; see the *Other resources* section on the left. The content of this site, including the Jupyter notebooks used in the lessons, is open-source and available on GitHub at https://github.com/UW-APL-SURP/aplsurp-python.
 
